@@ -1,0 +1,51 @@
+.contact-us-title {
+    font: normal normal normal 22px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif; 
+}
+.contact-us-title span{
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    width: 149px;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+.map div{
+    margin-left: 0 !important;
+}
+.contact-us{
+    padding: 3em 10em 3em 10em;
+}
+@media (max-width: 632px){
+    .contact-us{
+        padding: 3em 3em 3em 3em;
+    }
+    .contact-us-part button{
+        width: 100%!important;
+    }
+    .contact-us-part form{
+        width: 100%!important;
+    }
+}
+.contact-us-content p{
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+.instagram-icon,
+.youtube-icon{
+    margin-left: 3%;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-column-start: 2;
+}
+.footer div{
+    grid-column-start: 8;
+}

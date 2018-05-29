@@ -1,0 +1,10 @@
+.title{
+    width:100%;
+    text-align: center;
+    color:white;
+}
+
+.title span{
+    border-bottom: 2px solid white;
+    padding:.2em;
+}

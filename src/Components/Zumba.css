@@ -1,0 +1,54 @@
+body{
+    background: rgb(218, 209, 209)
+}
+
+
+.Zumba-container{
+    background: rgb(228, 221, 221);
+    width: 815px; 
+    margin-top: 36px;
+    margin: auto;
+    
+
+}
+.Zumba-show-video{
+    width: 772.5px; 
+    height: 427.5px;
+    margin-left: 20px;
+    
+    
+}
+
+
+.zumba-section{
+    margin-top:120px
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 254px 254px 254px;
+    grid-gap: 10px;
+    color: #444;
+    margin-top: 70px;
+    margin:20px;
+    
+  }
+  
+  .box {
+    border-radius: 5px;
+    font-size: 150%;
+    width:247px;
+    height:139px;
+    margin-left:20px;
+    border-radius: 0px;
+    cursor: pointer;
+    
+  }
+  .ZumbaContactUs{
+      width:100%;
+      border-top:2px solid yellow
+      
+    }
+    .zumba-section{
+        padding:0;
+    }

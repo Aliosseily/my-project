@@ -1,0 +1,11 @@
+section{
+    width:100%;
+    padding:3em;
+}
+
+@media screen and (max-width: 800px) {
+    section{
+        width:100%;
+        padding:0em;
+    }
+}

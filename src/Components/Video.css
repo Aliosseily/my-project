@@ -1,0 +1,51 @@
+
+.video {
+width:100%;
+  
+}
+.videocontainer{
+  position: relative;
+}
+  
+  .videobtn{
+    width: 200px;
+    padding: 12px;
+    font-family: 'Abel', sans-serif;    
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:red;
+    cursor: pointer;
+    position: absolute;
+    top:575px;
+    left:50%;
+    text-align: center;
+    color:white;
+    margin-left:-100px
+    
+    
+  }
+  .videobtn:hover{
+    background-color: blue;
+    transition: background-color 0.5s;
+  }
+ 
+  
+@media screen and (max-width:700px) {
+  .video{
+    width: 100%;
+    margin-top: 85px
+    
+  }
+}
+@media screen and (max-width: 1119px) {
+  .videobtn{
+    position: absolute;
+    top:80%;
+    left:50%;
+    margin-left:-75px;
+    width:150px;
+    height: 30px;
+    line-height: 10px
+
+  }
+}

@@ -1,0 +1,109 @@
+body{
+    background: rgb(218, 209, 209)
+}
+
+.youtube-container{
+    width: 815px; 
+      margin:0 auto;
+    background-color: rgb(228, 221, 221);
+    margin-top: 120px;
+    
+    
+}
+
+.youtube-player{
+    width: 772.5px; 
+    height: 427.5px;
+    margin-left: 20px;
+    
+    
+}
+
+.youtube-player-container{
+    width:100%;
+    margin:0 auto;
+    height:0;
+    padding-bottom:50%;
+    position: relative;
+}
+
+.youtube-playlist-item{
+    border-radius: 5px;
+    font-size: 150%;
+    width:262px;
+    height:139px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* width:10em;
+    padding:1em;
+    margin:1em;
+    overflow:hidden;
+    background: white;
+    border-radius:4px;
+    float:left;
+    height:13em;
+    position: relative;
+    cursor: pointer; */
+}
+
+.youtube-playlist-item::after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.youtube-playlist-item img{
+    width:100%;
+}
+
+.youtube-item-current{
+
+}
+
+
+.youtube-playlist-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    clear:both;
+    margin-top:140px;
+}
+.DiyContactUs{
+    border-top:2px solid yellow
+}
+
+.slider{
+    margin-top:123px;
+    background: green;
+    height:200px;
+
+}
+@media screen and (max-width: 500px) {
+
+    .slick-slide img{
+        height: 200px;
+        width: 100%;
+       
+    }
+    .sliderbox{
+        text-align: center;
+        
+    }
+}
+  
+
+ 
+.sliderbox{
+    border-radius: 5px;
+    font-size: 150%;
+    width:247px;
+    /* height:139px; */
+    border-radius: 0px;
+    cursor: pointer;
+}
+.slick-slide img{
+display: inline-block
+}
